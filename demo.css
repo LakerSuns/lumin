@@ -1,0 +1,22 @@
+body{
+	background:#203;
+}
+a{
+   text-decoration: none;
+   font-size: 100px;
+   color: #ffc;
+   font-family: rockwell;
+   transition: 1s;
+   /* transform: rotate3d(0, 1, 1, 180deg); */
+}
+a:hover{
+	/* 文本阴影 水平偏移 垂直  阴影大小， 二次发光 */
+   text-shadow: 0 0 10px,0 0 50px;
+}
+.hezi{
+	width: 200px;
+	height: 120px;
+	margin: 50px;
+	background: yellowgreen;
+	box-shadow: 0 0 0 20px deeppink,0 0 0 30px #58a,3px 3px 20px 35px rgba(255, 0, 0, 0.5);
+}
